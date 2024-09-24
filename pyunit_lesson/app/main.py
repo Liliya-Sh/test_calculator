@@ -28,7 +28,7 @@ class Calculator:
         return a / b
 
     def log(self, a: numeric, base: numeric) -> numeric:
-
+        """Функция логорифма для написания теста"""
         if not (isinstance(a, numeric) and isinstance(base, numeric)):
             raise TypeError
 
@@ -39,5 +39,5 @@ class Calculator:
 
 # calc = Calculator()
 # с = calc.log('a', 0) # ошибка TypeError
-# d = calc.log(8, 2)
+# d = calc.log(8, 2) # 3
 # print(d)
